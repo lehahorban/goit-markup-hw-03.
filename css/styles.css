@@ -41,33 +41,69 @@ img {
   margin: 0 auto;
   outline: 2px solid red;
 }
-  .list {
-    list-style: none;
+.section {
+padding-top: 94px;
+padding-bottom: 94px;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.header {
+  color: var(--background-origin);
+  
+}
+.header-links {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  display: flex;
+ 
+ 
+ }
+ .header-container{display: flex;   
+   }
+ .header-nav{ 
+   display: block;
+   display: flex;   
+   align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
-  .link {
-    text-decoration: none;
+  .header-tel  {
+    display: block;
+    display: flex;   
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: auto;
+    align-items: center;
   }
-  .header {
-    color: var(--background-origin);
-  }
-  .header-links {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--accent-color);
-  }
-  .header-links:hover,
-  .header-links:focus {
-    color: var(--accent-color);
-  }
-  .header-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--first-text-color);
-  }
+
+.header-links:hover,
+.header-links:focus {
+  color: var(--accent-color);
+}
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
+  display: flex;
+  align-items: center; 
+  
+  
+}
+.list-header:not(:last-child) {
+  margin-right: 50px;   
+ }
+
   .header-link:hover,
   .header-link:focus {
     color: var(--accent-color);
@@ -105,6 +141,16 @@ img {
 
     color: var(--first-text-color);
   }
+  .last-header-mail{
+    margin-right: 50px;
+  }
+  .link-logo{
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px ;
+  }
   .link-mail {
     font-weight: 500;
     font-size: 14px;
@@ -117,8 +163,8 @@ img {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
     color: var(--second-text-color);
+    
   }
 
   .logo-title {
