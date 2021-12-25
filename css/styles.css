@@ -52,7 +52,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 .section {
 padding-top: 94px;
@@ -154,7 +154,7 @@ padding-bottom: 94px;
 
     color: var(--first-text-color);
   }
-  .last-header-mail{
+  .list-header-mail{
     margin-right: 50px;
   }
   .link-logo{
@@ -379,9 +379,18 @@ padding-bottom: 94px;
   /* --------------------------------------Портфолио -------------------------------*/
   .main-list {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+  .main-card{
+    flex-basis: calc(100% / 3 - 30px);
+    margin: 15px;
+    text-align: center;
   }
   .main-link {
     list-style: none;
+    margin-bottom: 50px;
   }
   .mains-btn {
     background-color: var(--accent-color);
@@ -423,11 +432,20 @@ padding-bottom: 94px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
-}
+  margin-top: 20px;
+    }
 .main-title {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+}
+.main-link {
+  display: flex;
+  justify-content: center;  
+}
+.main-button { 
+  margin-top: 50px;
+  margin-right: 8px;
 }
