@@ -388,6 +388,12 @@ padding-bottom: 94px;
     margin: 15px;
     text-align: center;
   }
+  .card-item {   
+    margin-top: 20px;
+  }
+  .main-title {
+    margin-top: 4px;
+  }
   .main-link {
     list-style: none;
     margin-bottom: 50px;
