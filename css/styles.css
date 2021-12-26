@@ -80,7 +80,11 @@ padding-bottom: 94px;
  
  }
  .header-container {display: flex;   
-   }
+     }
+ .header-border {
+   border-bottom: 1px solid #ECECEC;
+   
+ }
  .header-nav{ 
    display: block;
    display: flex;   
@@ -143,6 +147,10 @@ padding-bottom: 94px;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    
+
   }
   .hero-btn:hover,
   .hero-btn:focus {
@@ -412,7 +420,7 @@ padding-bottom: 94px;
     list-style: none;
     margin-bottom: 50px;
   }
-  .mains-btn {
+  .mains-btn {    
     background-color: var(--accent-color);
     color: var(--first-title-color);
     font-family: Roboto;
@@ -423,14 +431,16 @@ padding-bottom: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    background: #2196F3;
+    border-radius: 4px;    
+    border: 0px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
   }
-  .mains-btn:hover,
+  .mains-btn:hover,   
   .mains-btn:focus {
     background-color: var(--btn-hover-color);
   }
-  .main-btn {
+  .main-btn {    
     background-color: var(--btn-second-color);
     color: var(--first-text-color);
     font-family: Roboto;
@@ -439,9 +449,11 @@ padding-bottom: 94px;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;background: #F5F4FA;
+    letter-spacing: 0.03em;
+    background: #F5F4FA;
     border-radius: 4px;
     cursor: pointer;
+    border: 0px;
 
   }
 
@@ -472,7 +484,9 @@ padding-bottom: 94px;
   display: flex;
   justify-content: center;  
 }
-.main-button { 
-  margin-top: 50px;
+.main-button {   
+  display: flex;
+  text-align: center;
   margin-right: 8px;
+  
 }
