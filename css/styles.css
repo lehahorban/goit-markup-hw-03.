@@ -52,7 +52,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 .section {
 padding-top: 94px;
@@ -141,6 +141,8 @@ padding-bottom: 94px;
     letter-spacing: 0.06em;
     color: var(--first-title-color);
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
   }
   .hero-btn:hover,
   .hero-btn:focus {
@@ -307,7 +309,8 @@ padding-bottom: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
-    margin-top:30px; }
+    padding-top: 30px; 
+     }
 
   .masters-item {
     font-weight: normal;
@@ -317,6 +320,12 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
     margin-top: 10px;
+    padding-bottom: 30px;
+      }
+  .master-card {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
   }
   .footer {
     background-color: var(--basik-color);
@@ -368,6 +377,7 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     color: var(--footer-text-color);
     margin-top: 9px;
+    padding-bottom: 60px;
   }
   .footer-tel:hover,
   .footer-tel:focus {
@@ -386,10 +396,14 @@ padding-bottom: 94px;
   .main-card{
     flex-basis: calc(100% / 3 - 30px);
     margin: 15px;
-    text-align: center;
+    text-align: left;
   }
   .card-item {   
-    margin-top: 20px;
+    padding-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    padding-left: 20px;
   }
   .main-title {
     margin-top: 4px;
@@ -409,6 +423,8 @@ padding-bottom: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
   }
   .mains-btn:hover,
   .mains-btn:focus {
@@ -423,8 +439,10 @@ padding-bottom: 94px;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;background: #F5F4FA;
+    border-radius: 4px;
     cursor: pointer;
+
   }
 
   .main-btn:hover,
@@ -438,14 +456,17 @@ padding-bottom: 94px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
-  margin-top: 20px;
+  margin-top: 20px;  
     }
+
+
 .main-title {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+  padding-bottom: 20px;
 }
 .main-link {
   display: flex;
