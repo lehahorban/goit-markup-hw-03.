@@ -8,7 +8,7 @@
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --btn-hover-color: #188ce8;
   --btn-second-color: #f5f4fa;
-  --background-item-color: #e5e5e5;
+  --background-item-color: #E5E5E5;
   --background-items-color: #f5f4fa;
 }
 body {
@@ -317,7 +317,7 @@ padding-bottom: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
-    padding-top: 30px; 
+    
      }
 
   .masters-item {
@@ -328,16 +328,19 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
     margin-top: 10px;
-    padding-bottom: 30px;
+    
       }
   .master-card {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px;
+    padding-top: 30px; 
   }
   .footer {
     background-color: var(--basik-color);
     padding-top: 60px;
+    padding-bottom: 60px;
     display: flex;
       }    
 
@@ -385,7 +388,7 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     color: var(--footer-text-color);
     margin-top: 9px;
-    padding-bottom: 60px;
+    
   }
   .footer-tel:hover,
   .footer-tel:focus {
@@ -406,16 +409,9 @@ padding-bottom: 94px;
     margin: 15px;
     text-align: left;
   }
-  .card-item {   
-    padding-top: 20px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;
-    padding-left: 20px;
-  }
-  .main-title {
-    margin-top: 4px;
-  }
+  
+  
+    
   .main-link {
     list-style: none;
     margin-bottom: 50px;
@@ -462,7 +458,7 @@ padding-bottom: 94px;
   .main-btn:focus {
     background-color: var(--accent-color);
   }
-}
+
 .main-item {
   font-weight: bold;
   font-size: 18px;
@@ -478,9 +474,18 @@ padding-bottom: 94px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
-  padding-bottom: 20px;
+  color: var(--second-text-color);  
+  margin-top: 4px;
 }
+.card-item {   
+    padding-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
 .main-link {
   display: flex;
   justify-content: center;
