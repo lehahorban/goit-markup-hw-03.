@@ -8,8 +8,8 @@
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --btn-hover-color: #188ce8;
   --btn-second-color: #f5f4fa;
-  --background-item-color: #E5E5E5;
-  --background-items-color: #f5f4fa;
+  --background-item-color: #ffffff;
+  --background-items-color: #ffffff;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -89,14 +89,11 @@ padding-bottom: 94px;
    display: block;
    display: flex;   
    align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+   
   }
   .header-tel  {
     display: block;
-    display: flex;   
-    padding-top: 32px;
-    padding-bottom: 32px;
+    display: flex;       
     margin-left: auto;
     align-items: center;
   }
@@ -114,11 +111,17 @@ padding-bottom: 94px;
   color: var(--first-text-color);
   display: flex;
   align-items: center; 
-  
+  padding-top: 32px;
+    padding-bottom: 32px;
   
 }
 .list-header:not(:last-child) {
   margin-right: 50px;   
+ 
+ }
+ .list-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
  }
 
   .header-link:hover,
@@ -166,6 +169,13 @@ padding-bottom: 94px;
   }
   .list-header-mail{
     margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .list-header-tel {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
   }
   .link-logo{
     display: flex;
@@ -465,8 +475,7 @@ padding-bottom: 94px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
-  margin-top: 20px;  
-    }
+      }
 
 
 .main-title {
@@ -478,12 +487,14 @@ padding-bottom: 94px;
   margin-top: 4px;
 }
 .card-item {   
-    padding-top: 20px;
+   
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
-    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 24px;     
     padding-bottom: 20px;
+    padding-left: 24px;
   }
 
 .main-link {
